@@ -4,6 +4,7 @@ import editor from './prompts/editor'
 import expander from './prompts/expander'
 import microblog from './prompts/microblog'
 import seo from './prompts/seo'
+import describe from './prompts/describe'
 
 export default {
   editor,
@@ -12,4 +13,5 @@ export default {
   condenser,
   seo,
   custom,
+  describe
 }

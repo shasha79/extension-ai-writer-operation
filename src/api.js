@@ -20,7 +20,13 @@ export default {
 				...thread,
 				{
 					role: "user",
-					content: text
+					content: promptKey != "describe" 
+					? text : [{
+						"type": "image_url",
+						"image_url": {
+						  "url": text
+						}
+					  }]
 				},
 			]
 

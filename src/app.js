@@ -41,6 +41,9 @@ export default {
 						options: {
 							choices: [
                                 {
+                                    text: 'GPT-4o-Mini',
+                                    value: 'gpt-4o-mini',
+                                },{
                                     text: 'GPT-4o',
                                     value: 'gpt-4o',
                                 },
@@ -75,6 +78,7 @@ export default {
 								Prompts.expander,
 								Prompts.condenser,
 								Prompts.seo,
+								Prompts.describe,
 								Prompts.custom,
 							],
 						},
