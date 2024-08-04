@@ -1,7 +1,7 @@
 export default {
-  text: 'Make Shorter',
-  value: 'condenser',
-  icon: 'short_text',
+  text: 'Describe Image',
+  value: 'describe',
+  icon: 'image',
   messages: [
     {
       role: 'system',
